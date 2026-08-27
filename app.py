@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello, DevOps! from new branch"
+    return "Hello, DevOps!, conflict !"
 
 @app.route("/health")
 def health():
